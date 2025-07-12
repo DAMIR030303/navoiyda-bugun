@@ -17,6 +17,7 @@ import AllRolesDashboard from "../../components/mobile/AllRolesDashboard";
 import MobileNavigation from "../../components/mobile/MobileNavigation";
 import TabletDashboard from "../../components/tablet/TabletDashboard";
 import TabletLayout from "../../components/tablet/TabletLayout";
+import QuickActions from "../../components/dashboard/QuickActions";
 
 const DashboardPage: React.FC = () => {
   const { user } = useAuth();
@@ -165,6 +166,9 @@ const DashboardPage: React.FC = () => {
             boshqaruv paneli
           </p>
         </div>
+
+        {/* Quick Actions */}
+        <QuickActions />
 
         {/* Role-based dashboard content */}
         {renderRoleBasedDashboard()}

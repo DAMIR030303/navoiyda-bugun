@@ -37,6 +37,7 @@ const APIIntegrationPage = React.lazy(
   () => import("@/pages/api/APIIntegrationPage")
 );
 const TestPage = React.lazy(() => import("@/pages/test/TestPage"));
+const ButtonTestPage = React.lazy(() => import("@/pages/test/ButtonTestPage"));
 const CalendarPage = React.lazy(() => import("@/pages/calendar/CalendarPage"));
 const MessagesPage = React.lazy(() => import("@/pages/messages/MessagesPage"));
 
@@ -466,6 +467,7 @@ function App() {
                           </ProtectedRoute>
                         }
                       />
+                      <Route path="/button-test" element={<ButtonTestPage />} />
                       <Route
                         path="/settings"
                         element={
