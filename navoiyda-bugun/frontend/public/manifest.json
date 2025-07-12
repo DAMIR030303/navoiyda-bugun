@@ -2,13 +2,13 @@
   "name": "Navoiyda Bugun - Boshqaruv Tizimi",
   "short_name": "Navoiyda Bugun",
   "description": "Navoiy viloyati korxonalari uchun boshqaruv tizimi",
-  "start_url": "/",
+  "start_url": "/navoiyda-bugun/",
   "display": "standalone",
   "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "orientation": "portrait-primary",
   "theme_color": "#3b82f6",
   "background_color": "#f8fafc",
-  "scope": "/",
+  "scope": "/navoiyda-bugun/",
   "lang": "uz",
   "dir": "ltr",
   "categories": ["business", "productivity", "utilities"],
@@ -60,7 +60,7 @@
       "name": "Dashboard",
       "short_name": "Dashboard",
       "description": "Bosh sahifa",
-      "url": "/dashboard",
+      "url": "/navoiyda-bugun/dashboard",
       "icons": [
         {
           "src": "/shortcut-dashboard.png",
@@ -73,7 +73,7 @@
       "name": "Vazifalar",
       "short_name": "Tasks",
       "description": "Vazifalar ro'yxati",
-      "url": "/tasks",
+      "url": "/navoiyda-bugun/tasks",
       "icons": [
         {
           "src": "/shortcut-tasks.png",
@@ -86,7 +86,7 @@
       "name": "Kalendar",
       "short_name": "Calendar",
       "description": "Kalendar va voqealar",
-      "url": "/calendar",
+      "url": "/navoiyda-bugun/calendar",
       "icons": [
         {
           "src": "/shortcut-calendar.png",
@@ -99,7 +99,7 @@
       "name": "Xabarlar",
       "short_name": "Messages",
       "description": "Xabarlar va chat",
-      "url": "/messages",
+      "url": "/navoiyda-bugun/messages",
       "icons": [
         {
           "src": "/shortcut-messages.png",

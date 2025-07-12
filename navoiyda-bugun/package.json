@@ -19,7 +19,8 @@
     "lint:backend": "cd backend && npm run lint",
     "docker:build": "docker-compose build",
     "docker:up": "docker-compose up -d",
-    "docker:down": "docker-compose down"
+    "docker:down": "docker-compose down",
+    "deploy": "npm run build:frontend && gh-pages -d frontend/dist"
   },
   "keywords": [
     "pwa",
@@ -33,7 +34,8 @@
   "author": "D.Nurmurodov",
   "license": "MIT",
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "gh-pages": "^6.3.0"
   },
   "engines": {
     "node": ">=18.0.0",
